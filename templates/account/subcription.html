@@ -1,0 +1,555 @@
+{% extends "startmin/TEMPLATE.html" %}
+{% load static %}
+{% block css %} 
+ <link href="{% static 'css/subcription.css' %}" rel="stylesheet">
+
+{% endblock css %}
+
+{% block page_titile %} Subcription {% endblock page_titile %}
+{% block header_title %} Subcription {% endblock header_title %}
+
+{% block main_content %}
+<div class="container container-pricing pd-subscription-container pd-subscription-table-container">
+    <div class="container-inner">
+        <table class="pricing-table" id="a-pricing-table">
+    <tbody><tr class="pricing-table-row pricing-table-row-top">
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-item packages-item-first  ">
+                    <h4 class="packages-header">Starter</h4>
+                </div>
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-item   ">
+                    <h4 class="packages-header">Standard</h4>
+                </div>
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-item   ">
+                    <h4 class="packages-header">Advanced</h4>
+                </div>
+            </td>
+                    <td class="pricing-table-packages-item-column pricing-table-column-highlight">
+                <div class="packages-item  packages-item-last pricing-table-column-highlight">
+                    <h4 class="packages-header">Professional</h4>
+                </div>
+            </td>
+            </tr>
+
+    <tr class="pricing-table-row">
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-price packages-price-PINGDOM_STARTER_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(62.170108795166016 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.641998291015625">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">13</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="68.93352508544922">.95</text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="68.93352508544922">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $14.95 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_STARTER_2015" class="button-base button-subscription-activate">Activate</a>
+                
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-price packages-price-PINGDOM_STANDARD_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(62.170108795166016 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.641998291015625">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">42</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="68.93352508544922">.95</text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="68.93352508544922">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $45.95 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_STANDARD_2015" class="button-base button-subscription-activate">Activate</a>
+                
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-price packages-price-PINGDOM_ADVANCED_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(62.170108795166016 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.641998291015625">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">82</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="68.93352508544922">.95</text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="68.93352508544922">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $89.95 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_ADVANCED_2015" class="button-base button-subscription-activate">Activate</a>
+                
+            </td>
+                    <td class="pricing-table-packages-item-column pricing-table-column-highlight">
+                <div class="packages-price packages-price-PINGDOM_PROFESSIONAL_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(46.061187744140625 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.641998291015625">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">229</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="103.40028381347656"></text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="103.40028381347656">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $249.00 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_PROFESSIONAL_2015" class="button-base button-subscription-activate">Activate</a>
+                                    <a href="#" class="subscription-manage-button">Manage plan</a>
+                
+            </td>
+            </tr>
+    <tr class="pricing-table-row">
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                10                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                50                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                80                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                    <p class="pricing-table-text">Multi-User Login</p>
+                                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row pricing-table-column-highlight">
+            <div class="pricing-table-column-container">
+                250                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                    <p class="pricing-table-text">Multi-User Login</p>
+                                                    <p class="pricing-table-text">Invoice Payment Available</p>
+                                <div class="pricing-table-column-container-tooltip subscription-plan-info" data-for="uptime"><span class="tooltip-container"><i class="icon-infofill"></i></span></div>            </div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+                    <td class="">
+            <div class="pricing-table-column-container">
+                1                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (10 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                            </div>
+        </td>
+                    <td class="">
+            <div class="pricing-table-column-container">
+                3                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (10 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                            </div>
+        </td>
+                    <td class="">
+            <div class="pricing-table-column-container">
+                5                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (10 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                            </div>
+        </td>
+                    <td class="pricing-table-column-highlight">
+            <div class="pricing-table-column-container">
+                25                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (5 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                <div class="pricing-table-column-container-tooltip subscription-plan-info" data-for="advanced"><span class="tooltip-container"><i class="icon-infofill"></i></span></div>            </div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>100k pageviews/mo</strong> &amp;
+                    1 sites
+                </p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>500k pageviews/mo</strong> &amp;
+                    5 sites
+                </p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>1M pageviews/mo</strong> &amp;
+                    5 sites
+                </p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row pricing-table-column-highlight">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>5M pageviews/mo</strong> &amp;
+                    50 sites
+                </p>
+                                    <p class="pricing-table-text">Subdomain Monitoring</p>
+                                <div class="pricing-table-column-container-tooltip subscription-plan-info" data-for="rum"><span class="tooltip-container"><i class="icon-infofill"></i></span></div>            </div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+            <td class="">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">1 users
+                                            </p></div>
+        </td>
+            <td class="">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">1 users
+                                            </p></div>
+        </td>
+            <td class="">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">3 users
+                                            </p></div>
+        </td>
+            <td class="pricing-table-column-highlight">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">5 users
+                                            </p></div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+            <td class="">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                50 SMS Text Messages/mo
+            
+        </p></td>
+            <td class="">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                200 SMS Text Messages/mo
+            
+        </p></td>
+            <td class="">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                350 SMS Text Messages/mo
+            
+        </p></td>
+            <td class="pricing-table-column-highlight">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                500 SMS Text Messages/mo
+            
+        </p></td>
+        </tr>
+    <tr class="pricing-table-row">
+    <td class=""><p class="pricing-table-text pricing-table-text-semistrong">Silver Support</p><p class="pricing-table-text">(Online &amp; Chat)</p></td><td class=""><p class="pricing-table-text pricing-table-text-semistrong">Silver Support</p><p class="pricing-table-text">(Online &amp; Chat)</p></td><td class=""><p class="pricing-table-text pricing-table-text-semistrong">Silver Support</p><p class="pricing-table-text">(Online &amp; Chat)</p></td><td class="pricing-table-column-highlight"><p class="pricing-table-text pricing-table-text-semistrong">Gold Support</p><p class="pricing-table-text">(Online, Chat &amp; Phone)</p></td>    </tr>
+
+            <tr class="pricing-table-row">
+                            <td class="">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_STARTER_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                            <td class="">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_STANDARD_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                            <td class="">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_ADVANCED_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                            <td class="pricing-table-column-highlight packages-item-highlighted">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_PROFESSIONAL_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                    </tr>
+    
+</tbody></table>
+<table class="pricing-table" id="a-pricing-table">
+    <tbody><tr class="pricing-table-row pricing-table-row-top">
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-item packages-item-first  ">
+                    <h4 class="packages-header">Enterprise</h4>
+                </div>
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-item   ">
+                    <h4 class="packages-header">Enterprise Plus</h4>
+                </div>
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-item  packages-item-last ">
+                    <h4 class="packages-header">Enterprise Traffic</h4>
+                </div>
+            </td>
+            </tr>
+
+    <tr class="pricing-table-row">
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-price packages-price-PINGDOM_ENTERPRISE_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(46.04129600524902 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.068822860717773">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">454</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="103.42738342285156"></text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="103.42738342285156">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $495.00 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_ENTERPRISE_2015" class="button-base button-subscription-activate">Activate</a>
+                
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-price packages-price-PINGDOM_ENTERPRISE_PLUS_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(46.04129600524902 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.068822860717773">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">913</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="103.42738342285156"></text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="103.42738342285156">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $995.00 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_ENTERPRISE_PLUS_2015" class="button-base button-subscription-activate">Activate</a>
+                
+            </td>
+                    <td class="pricing-table-packages-item-column ">
+                <div class="packages-price packages-price-PINGDOM_ENTERPRISE_TRAFFIC_2015">
+    <div class="svg-package-price-container-wrapper">
+        <div class="svg-package-price-container svg-package-price-container-usd" style="opacity: 1;">
+            <div class="svg-package-price-container-inner">
+
+                                <svg class="svg-package-price" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 208 62">
+                    <rect class="svg-package-price-bbox" width="100%" height="100%" style="fill: rgba(0, 255, 255, 0);"></rect>
+                    <g class="svg-package-price-group" transform="translate(46.04129600524902 0)">
+                                                    <text y="28" data-pos="top:left" class="svg-package-price-currency js-package-price" x="-16.068822860717773">$</text>
+                            <text y="54" data-pos="bottom:left" class="svg-package-price-small js-package-price" x="0"></text>
+                            <text y="54" data-pos="center" class="svg-package-price-whole js-package-price js-package-price-c">913</text>
+                            <text y="28" data-pos="top:right" class="svg-package-price-decimals js-package-price" x="103.42738342285156"></text>
+                            <text y="54" data-pos="bottom:right" class="svg-package-price-small js-package-price" x="103.42738342285156">/mo</text>
+                                            </g>
+                </svg>
+
+            </div>
+        </div>
+    </div>
+
+    <p class="packages-price-info">Billed yearly <strong>(Best Value)</strong> <br>or $995.00 month-to-month</p>
+    <p class="packages-price-paybyinvoice hidden-phone">&nbsp;</p>
+</div>
+<a href="https://my.pingdom.com/account/activate/PINGDOM_ENTERPRISE_TRAFFIC_2015" class="button-base button-subscription-activate">Activate</a>
+                
+            </td>
+            </tr>
+    <tr class="pricing-table-row">
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                500                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                    <p class="pricing-table-text">Multi-User Login</p>
+                                                    <p class="pricing-table-text">Invoice Payment Available</p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                2500                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                    <p class="pricing-table-text">Multi-User Login</p>
+                                                    <p class="pricing-table-text">Invoice Payment Available</p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                500                <p class="pricing-table-text">Uptime Checks</p>
+                <p class="pricing-table-text">1 min interval</p>
+                                    <p class="pricing-table-text">Public Status Page</p>
+                                                    <p class="pricing-table-text">Select Test Location</p>
+                                                    <p class="pricing-table-text">Multi-User Login</p>
+                                                    <p class="pricing-table-text">Invoice Payment Available</p>
+                                <div class="pricing-table-column-container-tooltip subscription-plan-info" data-for="uptime"><span class="tooltip-container"><i class="icon-infofill"></i></span></div>            </div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+                    <td class="">
+            <div class="pricing-table-column-container">
+                50                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (5 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                            </div>
+        </td>
+                    <td class="">
+            <div class="pricing-table-column-container">
+                100                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (5 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                            </div>
+        </td>
+                    <td class="">
+            <div class="pricing-table-column-container">
+                50                <p class="pricing-table-text">Advanced Check</p>
+                <p class="pricing-table-text">Transaction (5 min interval)</p>
+                <p class="pricing-table-text">Page Speed (30 min interval)</p>
+                <div class="pricing-table-column-container-tooltip subscription-plan-info" data-for="advanced"><span class="tooltip-container"><i class="icon-infofill"></i></span></div>            </div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>10M pageviews/mo</strong> &amp;
+                    200 sites
+                </p>
+                                    <p class="pricing-table-text">Subdomain Monitoring</p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>10M pageviews/mo</strong> &amp;
+                    200 sites
+                </p>
+                                    <p class="pricing-table-text">Subdomain Monitoring</p>
+                                            </div>
+        </td>
+            <td class="pricing-table-topaligned-row ">
+            <div class="pricing-table-column-container">
+                <p class="pricing-table-text pricing-table-text-semistrong">Real User Monitoring
+                </p><p class="pricing-table-text">
+                    <strong>40M pageviews/mo</strong> &amp;
+                    400 sites
+                </p>
+                                    <p class="pricing-table-text">Subdomain Monitoring</p>
+                                <div class="pricing-table-column-container-tooltip subscription-plan-info" data-for="rum"><span class="tooltip-container"><i class="icon-infofill"></i></span></div>            </div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+            <td class="">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">15 users
+                                            </p></div>
+        </td>
+            <td class="">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">15 users
+                                            </p></div>
+        </td>
+            <td class="">
+            <div class="pricing-table-column-container">
+                                    <p class="pricing-table-text pricing-table-text-semistrong">15 users
+                                            </p></div>
+        </td>
+        </tr>
+    <tr class="pricing-table-row">
+            <td class="">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                1000 SMS Text Messages/mo
+            
+        </p></td>
+            <td class="">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                1000 SMS Text Messages/mo
+            
+        </p></td>
+            <td class="">
+            <p class="pricing-table-text pricing-table-text-semistrong">
+                1000 SMS Text Messages/mo
+            
+        </p></td>
+        </tr>
+    <tr class="pricing-table-row">
+    <td class=""><p class="pricing-table-text pricing-table-text-semistrong">Gold Support</p><p class="pricing-table-text">(Online, Chat &amp; Phone)</p></td><td class=""><p class="pricing-table-text pricing-table-text-semistrong">Gold Support</p><p class="pricing-table-text">(Online, Chat &amp; Phone)</p></td><td class=""><p class="pricing-table-text pricing-table-text-semistrong">Gold Support</p><p class="pricing-table-text">(Online, Chat &amp; Phone)</p></td>    </tr>
+
+            <tr class="pricing-table-row">
+                            <td class="">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_ENTERPRISE_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                            <td class="">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_ENTERPRISE_PLUS_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                            <td class="">
+                    <a href="https://my.pingdom.com/account/activate/PINGDOM_ENTERPRISE_TRAFFIC_2015" class="button-base button-subscription-activate">Activate</a>                </td>
+                    </tr>
+    
+</tbody></table>
+    </div>
+
+    </div>
+
+
+{% endblock main_content %}

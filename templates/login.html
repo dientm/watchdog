@@ -1,0 +1,41 @@
+{% load static %}
+{% load widget_tweaks %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Watchdog</title>
+
+
+    <link rel="stylesheet" href="{% static 'css/login.css' %}">
+
+
+</head>
+
+<body>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Login</title>
+
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+
+</head>
+<div id="login">
+    <form name='form' action="{% url 'login' %}" method="POST">
+        <span class="fontawesome-user"></span>
+         <input type="text" name="username">
+
+        <span class="fontawesome-lock"></span>
+
+        <input type="password" name="password">
+
+        <input type="submit" value="Login">
+        {% csrf_token %}
+        <span class="" >{{ form.errors }}</span>
+
+    </form>
+
+
+</body>
+</html>
